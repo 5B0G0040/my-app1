@@ -9,9 +9,9 @@ function MyRGBPanel() {
     const [b, setB] = useState(128);
 
     // 定義更新 r、g、b 的函式
-    const updateR = (v) => setR(v);
-    const updateG = (v) => setG(v);
-    const updateB = (v) => setB(v);
+    const updateR = (v) => setR(v); // 當紅色滑動條改變時，調用這個函數
+    const updateG = (v) => setG(v); // 當綠色滑動條改變時，調用這個函數
+    const updateB = (v) => setB(v); // 當藍色滑動條改變時，調用這個函數    
 
     // 定義 CSS 樣式對象 rgbCss
     const rgbCss = {

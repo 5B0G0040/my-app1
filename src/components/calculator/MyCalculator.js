@@ -7,8 +7,8 @@ function MyCalculator() {
   // 定義狀態 result，初始值為 "0"
   const [result, setResult] = useState("0");
 
-  // 定義點擊按鈕時的事件處理函式
-  const handleClick = (value) => {
+  // 定義點擊按鈕時回傳甚麼值
+  const handleClick = (value) => { 
     // 根據按鈕的值執行不同的操作
     switch (value) {
       case "0":
